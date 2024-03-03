@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <CheckBox
+            android:id="@+id/cB1"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/apple"
+            tools:text="@string/apple" />
+
+        <EditText
+            android:id="@+id/quant1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="@string/hintQuantity"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/price1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintPrice"
+            android:inputType="number|numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cB2"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/strawberry"
+            tools:text="@string/strawberry" />
+
+        <EditText
+            android:id="@+id/quant2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="@string/hintQuantity"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/price2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintPrice"
+            android:inputType="number|numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cB3"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/blueberry"
+            tools:text="@string/blueberry" />
+
+        <EditText
+            android:id="@+id/quant3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="@string/hintQuantity"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/price3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintPrice"
+            android:inputType="number|numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cB4"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/potato"
+            tools:text="@string/potato" />
+
+        <EditText
+            android:id="@+id/quant4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="@string/hintQuantity"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/price4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintPrice"
+            android:inputType="number|numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="287dp"
+            android:layout_height="match_parent"
+            android:onClick="onCalc"
+            android:text="@string/calc"
+            tools:text="@string/calc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row6"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rB1"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/dialog"
+                tools:text="@string/dialog" />
+
+            <RadioButton
+                android:id="@+id/rB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/message"
+                tools:text="@string/message" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

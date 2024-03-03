@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">lab04</string>
+
+
+    <string name="apple">Apple</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="blueberry">Blueberry</string>
+    <string name="potato">Potatoes</string>
+
+    <string name="hintQuantity">кол-во</string>
+    <string name="hintPrice">стоим.</string>
+
+    <string name="calc">Calculate</string>
+
+    <string name="dialog">Диалог</string>
+    <string name="message">Сообщение</string>
+</resources>
